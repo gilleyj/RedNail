@@ -8,26 +8,19 @@
         <meta name="author" content="" />
         <link rel="shortcut icon" href="<?=$this->_base_url;?>assets/favicon.ico" />
         
-        <title>Theme Template for Bootstrap</title>
-        
-        <!-- Bootstrap core CSS -->
-        <link href="<?=$this->_base_url;?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <!-- Bootstrap theme -->
-        <link href="<?=$this->_base_url;?>assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
-        
+        <title></title>
+                
         <!-- Custom styles for this template -->
         <link href="<?=$this->_base_url;?>assets/theme.css" rel="stylesheet" />
-        <link href="<?=$this->_base_url;?>assets/page.css" rel="stylesheet" />
- 
 
         <!-- Fonts from Google Fonts -->
-        <!-- link href="http://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet" type="text/css" / -->
+        <link href="http://fonts.googleapis.com/css?family=Arimo" rel="stylesheet" type="text/css" />
        
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
-         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-         <![endif]-->
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
     
     <body role="document">
