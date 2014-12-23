@@ -1,4 +1,5 @@
 <?php
+
     // application database
     define('db_host', 'localhost');
     define('db_user', 'ocelot');

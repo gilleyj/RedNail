@@ -14,9 +14,14 @@
     $application = new application;
 
     /* main and static pages */
-    $application->route->add('/', 'main','landing_page');
-    $application->route->add('/user/login', 'main','landing_page');
+    $application->route->add('/', 'main', 'landing_page');
+
+    $application->route->add('/user/register', 'user', 'register');
+    $application->route->add('/user/login', 'user', 'login');
+    $application->route->add('/user/logout', 'user', 'logout');
     
+    $application->route->add('/api/record/call', 'api_tel', 'record_call');
+
     /* submit and start the routing engine */
     $application->route->submit();
 
